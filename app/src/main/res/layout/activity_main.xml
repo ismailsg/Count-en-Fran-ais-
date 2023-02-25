@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="6dp"
+        android:rowCount="5"
+        android:columnCount="2">
+
+        <ImageView
+            android:id="@+id/i0"
+            style="@style/MyImageViewStyle"
+            android:layout_width="wrap_content"
+            android:src="@drawable/i0" />
+
+        <ImageView
+            android:id="@+id/i1"
+            style="@style/MyImageViewStyle"
+
+            android:layout_width="wrap_content"
+            android:src="@drawable/i1" />
+
+        <ImageView
+            android:id="@+id/i2"
+            style="@style/MyImageViewStyle"
+            android:layout_width="wrap_content"
+            android:src="@drawable/i2" />
+
+        <ImageView
+            android:id="@+id/i3"
+            style="@style/MyImageViewStyle"
+
+            android:layout_width="wrap_content"
+            android:src="@drawable/i3" />
+
+        <ImageView
+            android:id="@+id/i4"
+            style="@style/MyImageViewStyle"
+            android:layout_width="wrap_content"
+            android:src="@drawable/i4" />
+
+        <ImageView
+            android:id="@+id/i5"
+            style="@style/MyImageViewStyle"
+            android:layout_width="wrap_content"
+            android:paddingLeft="50dp"
+            android:src="@drawable/i5" />
+
+        <ImageView
+            android:id="@+id/i6"
+            style="@style/MyImageViewStyle"
+            android:layout_width="wrap_content"
+            android:src="@drawable/i6" />
+
+        <ImageView
+            android:id="@+id/i7"
+            style="@style/MyImageViewStyle"
+            android:layout_width="wrap_content"
+            android:src="@drawable/i7" />
+
+        <ImageView
+            android:id="@+id/i8"
+            style="@style/MyImageViewStyle"
+            android:layout_width="wrap_content"
+            android:src="@drawable/i8" />
+
+        <ImageView
+            android:id="@+id/i9"
+            style="@style/MyImageViewStyle"
+            android:layout_width="wrap_content"
+            android:src="@drawable/i9" />
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
